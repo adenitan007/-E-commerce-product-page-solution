@@ -1,4 +1,4 @@
-# E-commerce-product-page-solution
+# E-commerce-product-page-solution.
 
 ## Table of contents
 
