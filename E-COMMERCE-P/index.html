@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title> E-commerce product page</title>
+</head>
+
+<body>
+  <div class="header">
+    <div id="mySidebar" class="sidebar">
+      <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a> -->
+      <a href="#">Collections</a>
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div id="main">
+      <div class="right-nav">
+        <button class="openbtn" onclick="openNav()"> ☰ </button>
+        <!-- <button class="openbtn" onclick="openNav(this)"> <a class="toggle" href="">☰</a> </button> -->
+        <a href="#" class="logo"><img src="images/logo.svg" alt=""></a>
+        <div class="nav-list">
+          <button onclick="closeNav(this)">x</button>
+          <a href="#">Collections</a>
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <div class="left_nav">
+        <div id="cart">
+          <!-- <button class="cartBtn"> -->
+          <button class="cart__btn" onclick="openCart()">
+            <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+                fill="#69707D" fill-rule="nonzero" />
+            </svg></button>
+
+          <div class="cart-dis">
+            <h1>Cart</h1>
+            <div class="cart-dis-min">
+              <img src="images/image-product-1-thumbnail.jpg" alt="">
+              <div id="cart-price-dis">
+                <h3>Fall Limited Edition Jeakers</h3>
+                <h3>$125.00 x 3 <strong>$375.00</strong></h3>
+              </div>
+              <a href=""><img src="images/icon-delete.svg" alt=""></a>
+
+            </div>
+            <a href="" class="checkout">Checkout</a>
+          </div>
+        </div>
+
+
+
+        <div class="profile"><a href="" class="profile"><img src="images/image-avatar.png" alt="image-avatar"></a></div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="content">
+
+    <img src="images/image-product-1.jpg" alt="">
+
+    <div class="thump">
+      <a href=""><img src="images/image-product-1-thumbnail.jpg" alt=""></a>
+      <a href=""><img src="images/image-product-2-thumbnail.jpg" alt=""></a>
+      <a href=""><img src="images/image-product-3-thumbnail.jpg" alt=""></a>
+      <a href=""><img src="images/image-product-4-thumbnail.jpg" alt=""></a>
+    </div>
+    <div class="arrow">
+      <a href="#" class="previous">&#8249;</a>
+      <a href="#" class="next">&#8250;</a>
+
+
+    </div>
+  </div>
+
+  <div class="content-sub">
+    <h1>Sneaker Company</h1>
+
+    <h2>Fall Limited Edition <br> Sneakers</h2>
+
+    <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+      durable rubber outer sole, they’ll withstand everything the weather can offer.</>
+
+
+    <div class="price">
+      <div class="main-pri">
+        <p>$125.00</p>
+        <p class="discount">50%</p>
+      </div>
+      <div class="ori-price">
+        <p>$250.00</p>
+      </div>
+    </div>
+
+    <div class="selection">
+      <div class="button-1">
+        <a href="" class="minus">
+          <h1>-</h1>
+        </a>
+        <h1 class="num">3</h1>
+        <a href="" class="plus">
+          <h1>+</h1>
+        </a>
+      </div>
+      <div class="button-2">
+        <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+            fill="#ffff" fill-rule="nonzero" />
+        </svg>
+        <a href="">
+          <h2>Add to cart</h2>
+        </a>
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <!-- 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="commerce.js"></script>
+</body>
+
+</html>
